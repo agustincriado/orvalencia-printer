@@ -1,0 +1,24 @@
+{
+  "name": "orvalencia-printer",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin criado",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
